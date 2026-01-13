@@ -7,7 +7,7 @@ public class While {
         Scanner entrada = new Scanner(System.in);
         int contador = 0;
 
-        while (contador <= 100000) {
+        while (contador <= 100) {
             System.out.println("Bom dia");
             System.out.printf("i = %d\n", contador);
             contador++;
