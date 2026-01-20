@@ -1,4 +1,4 @@
-package Desafios;
+package OperadoresAritimeticos;
 
 import java.util.Scanner;
 

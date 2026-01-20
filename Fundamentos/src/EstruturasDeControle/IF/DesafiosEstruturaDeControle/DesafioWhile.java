@@ -1,4 +1,4 @@
-package Desafios;
+package EstruturasDeControle.IF.DesafiosEstruturaDeControle;
 
 import java.util.Scanner;
 
