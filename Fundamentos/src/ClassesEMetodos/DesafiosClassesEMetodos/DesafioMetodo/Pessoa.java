@@ -8,12 +8,14 @@ public class Pessoa {
 
     Pessoa(String nome, double pesagem) {
 
-        nome = nomePessoa;
+        nomePessoa = nome;
         peso = pesagem;
 
+        System.out.println(nome);
+        System.out.println(peso);
     }
-    void comer(Comida comida ){
-        System.out.println(this.peso + comida.pesoComida);
+    void comer(Comida comer){
+        System.out.println(this.peso + comer.pesoComida);
     }
 
     }

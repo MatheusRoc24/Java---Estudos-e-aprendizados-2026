@@ -7,6 +7,10 @@ public class Jantar {
         Comida comida = new Comida("Maça", 1.5);
         Pessoa pessoa = new Pessoa("Aline", 65.5);
 
-        System.out.println();
+
+        pessoa.comer(comida);
+
+
     }
+
 }
