@@ -1,4 +1,4 @@
-package EstruturasDeControle.IF;
+package EstruturasDeControle;
 
 import java.util.Scanner;
 
