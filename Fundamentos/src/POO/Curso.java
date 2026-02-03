@@ -8,6 +8,7 @@ public class Curso {
     final List<Aluno> alunos = new ArrayList<>();
 
     Curso(String nome){
+
         this.nome = nome;
     }
 
