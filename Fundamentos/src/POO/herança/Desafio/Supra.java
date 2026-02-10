@@ -1,16 +1,21 @@
 package POO.herança.Desafio;
 
 public class Supra extends Carro{
+    public Supra(int velocidadeMaxima) {
+        super(velocidadeMaxima);
+    }
+
     @Override
     void  acelerar() {
-        super.acelerar();{
-            VelocidadeAtual += 35;
-        }
-        super.frear();{
-            VelocidadeAtual -= 15;
+        super.acelerar();
+
         }
 
+    @Override
+    void frear() {
+        super.frear();
     }
 }
+
 
 

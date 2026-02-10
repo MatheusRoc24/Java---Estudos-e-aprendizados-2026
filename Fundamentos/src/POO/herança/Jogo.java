@@ -10,7 +10,7 @@ public class Jogo {
         System.out.println(j1.vida );
 
 
-        Jogador heroi = new Heroi();
+        Jogador heroi = new Heroi(20, 20);
         heroi.x = 10;
         heroi.y = 11;
 
