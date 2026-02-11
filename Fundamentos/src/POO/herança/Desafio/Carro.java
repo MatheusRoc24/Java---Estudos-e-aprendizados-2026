@@ -1,7 +1,7 @@
 package POO.herança.Desafio;
 
 public class Carro {
-    int VelocidadeAtual = 0;
+    private int VelocidadeAtual = 0;
     int delta = 5;
 
     private final int VELOCIDADE_MAXIMA;
@@ -11,7 +11,7 @@ public class Carro {
     }
 
 
-    void acelerar(){
+    public void acelerar(){
         int velocidadePossivel = VelocidadeAtual + delta;
 
         if(velocidadePossivel > VELOCIDADE_MAXIMA){
@@ -21,15 +21,23 @@ public class Carro {
             VelocidadeAtual = velocidadePossivel;
         }
 
+
     }
 
-     void frear(){
+    public int getVelocidadeAtual() {
+        return VelocidadeAtual;
+    }
+
+    public void frear(){
         VelocidadeAtual -= 5;
         if(VelocidadeAtual < 0){
             VelocidadeAtual = 0;
 
         }
      }
-    }
+
+
+
+}
 
 

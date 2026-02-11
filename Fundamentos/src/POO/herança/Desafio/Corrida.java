@@ -17,8 +17,8 @@ public class Corrida {
        supra.frear();
        civic.frear();
 
-        System.out.println("Velocidade de supra: " + supra.VelocidadeAtual);
-        System.out.println("Velocidade de civic: " + civic.VelocidadeAtual);
+        System.out.println(civic.getVelocidadeAtual());
+        System.out.println(supra.getVelocidadeAtual());
     }
     }
 

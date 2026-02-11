@@ -6,13 +6,12 @@ public class Supra extends Carro{
     }
 
     @Override
-    void  acelerar() {
+    public void acelerar() {
         super.acelerar();
-
-        }
+    }
 
     @Override
-    void frear() {
+    public void frear() {
         super.frear();
     }
 }
