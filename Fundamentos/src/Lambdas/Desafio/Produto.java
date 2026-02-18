@@ -23,4 +23,11 @@ public class Produto extends Object{
         return preco;
     }
 
+    public String toString() {
+        return "Nome: " + nome +
+                " | Preço: " + preco +
+                " | Desconto: " + desconto;
+
+    }
+
 }

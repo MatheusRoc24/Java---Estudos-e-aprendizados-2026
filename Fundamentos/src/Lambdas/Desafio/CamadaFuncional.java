@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 public interface CamadaFuncional {
 
     Predicate<Produto> isDesconto = produto -> {
-        return produto.getPreco() * (1 - produto.getDesconto()) <= 3.35;
+        return produto.getPreco() * (1 - produto.getPreco()) <= 3.35;
 
     };
 
