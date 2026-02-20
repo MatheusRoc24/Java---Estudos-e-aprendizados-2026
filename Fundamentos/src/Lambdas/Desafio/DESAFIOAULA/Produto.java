@@ -6,21 +6,19 @@ public class Produto {
     private double desconto;
 
 
-    public Produto(){
-        this.preco = preco;
+       Produto(String nome, double preco, double desconto){
         this.nome = nome;
+        this.preco = preco;
         this.desconto = desconto;
-    }
-
-    public double getDesconto() {
-        return desconto;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public double getPreco() {
-        return preco;
+    public double getPreco() { return preco;}
+
+    public double getDesconto() {
+        return desconto;
     }
 }
