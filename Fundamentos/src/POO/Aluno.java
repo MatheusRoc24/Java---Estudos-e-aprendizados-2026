@@ -4,9 +4,9 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Aluno {
-    String nome;
+    public final String nome;
     ArrayList<Curso> cursos = new ArrayList<>();
-    Aluno(String nome){
+    public Aluno(String nome){
         this.nome = nome;
     }
 

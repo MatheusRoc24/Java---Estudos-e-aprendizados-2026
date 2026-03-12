@@ -15,9 +15,12 @@ public class Basico {
         try {
             System.out.println(7/0);
             //Aqui ele vai tratar o erro como de calculo, servindo para mostrar que é impossivel calcular
+
         } catch (ArithmeticException e) {
             e.printStackTrace();
+
             //Aqui vai mostrar a origem do erro a partir do getMessage
+
             System.out.println("Ocorreu um erro " + e.getMessage());
         }
     }
